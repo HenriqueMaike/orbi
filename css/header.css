@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Pacaembu";
+    src: url("fonts/Pacaembu-Regular-Trial.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:'Pacaembu', sans-serif;
+    background-color: #FAFAFA;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+/** Header**/
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+}
+
+.container-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 140px;
+}
+
+.menu-barras{
+    display: flex;
+    cursor: pointer;
+}
+
+/** Botoes Jornal e Newsletter**/
+
+.buttom-icons-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttom-icons-child a{
+    display: flex;
+    background-color: #FFF;
+    border-radius: 30px;
+    padding: 10px 20px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.buttom-icons-child img{
+    background-color: #FFF;
+}
+
+.buttom-icons-child span{
+    background-color: #FFF;
+}
+
+.logo{
+    display: flex;
+    width: 25%;
+    cursor: pointer;
+}
+
+
+.logo img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .buttom-icons-child .newsletter{
+        display: none;
+    }
+
+    div.search {
+        display: none;
+    }
+
+    .container-header{
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+    .logo img{
+        width: 100%;
+    }
+}
+/** Botao de buscar **/
+
+.search{
+    display: flex;
+    width: 15%;
+    background-color: #FFF;
+    border-radius: 30px;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px 10px rgb(137 137 137 / 15%);
+    border-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search input{
+    display: flex;
+    width: 72%;
+    background-color: #FFF;
+    padding: 10px 20px;
+    border: 0 none;
+    outline: 0;
+}
+
+/** menu **/
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: inherit
+}
+
+.navbar ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+
+.list li{
+    padding-bottom: 20px;
+    border-bottom: 3px #FFFFFF solid;
+}
+
+.navbar li:hover{
+    border-bottom: 3px #FF0A6B solid;
+}
+
+@media only screen and (max-width: 768px) {
+    .list li{
+        font-size: 10px;
+    }
+
+    .navbar ul{
+        margin: 10px;
+    }
+}

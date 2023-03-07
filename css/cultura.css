@@ -1,0 +1,102 @@
+.colunas-cultura{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cultura-child{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.container-cultura-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cultura-box-1{
+    display: flex;
+    width: 282px;
+    height: 100%;
+
+}
+
+.banner-cultura{
+    width: 283px;
+    position: relative;
+}
+
+.banner-cultura::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+    border-radius: 10px;
+}
+
+.cultura-box-2{
+    display: flex;
+    width: 15%;
+    height: 100%;
+}
+
+.box-cultura{
+    display: flex;
+    flex-direction: column;
+}
+
+.cultura-box-3{
+    display: flex;
+    background-color: #ECECEC;
+    width: 30%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cultura-box-4{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .cultura-child{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .cultura-box-1{
+        display: none;
+    }
+
+    .cultura-box-2{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .cultura-box-3{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+    .cultura-box-4{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+}

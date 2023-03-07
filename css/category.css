@@ -1,0 +1,206 @@
+.container-category{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.category-box{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*************************************/
+
+.box-1{
+    width: 15%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-1 a{
+    cursor: pointer;
+}
+
+.box-category{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.box-category span{
+    text-transform: uppercase;
+    color: #FF0A6B;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box-category p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/*************************************/
+
+.box-2{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+}
+
+.box-category-2{
+    display: flex;
+}
+
+.box-category-2 a{
+    display: flex;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.box-category-info span{
+    text-transform: uppercase;
+    color: #FF0A6B;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.box-category-info p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-category{
+        display: flex;
+        width: 100%;
+    }
+    .category-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .box-2{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box-category{
+        display: none;
+    }
+}
+
+/*************************************/
+
+.box-3{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.loteria{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.loteria span{
+    font-weight: bold;
+}
+.loteria p{
+    margin-bottom: 15px;
+}
+
+.loteria a{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: #F6650C;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.button-loteria{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button-loteria button{
+    display: inline-flex;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #F6650C;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-3{
+        display: none;
+    }
+}
+
+.clima{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.cidade span{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.cidade p{
+    font-size: 12px;
+}
+
+.clima-info span{
+    color: #F6650C;
+    font-weight: bold;
+}
+
+.clima-info p{
+    font-size: 40px;
+}
+
+/*************************************/
+
+.box-4{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+
+.box-4 a{
+    cursor: pointer;
+}
+

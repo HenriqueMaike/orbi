@@ -1,0 +1,177 @@
+.colunas{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-colunas{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .container-colunas{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.icon-colunas{
+    display: flex;
+    width: 100%;
+}
+
+.icon-colunas img{
+    display: flex;
+    width: 171px;
+    height: 65px;
+}
+
+.coluna-1{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.box-colunas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.box-coluna-text{
+    margin-left: 10px;
+}
+
+.box-coluna-text span{
+    font-weight: bold;
+}
+
+.box-coluna-text p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.box-colunas a{
+    display: flex;
+}
+
+.icon-colunas{
+    display: flex;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.coluna-2{
+    display: flex;
+    width: 30%;
+    background-color: #ECECEC;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna-3{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #ECECEC;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.container-form{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form span{
+    font-weight: bold;
+    color: #FF0A6B;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form strong{
+    margin-bottom: 5px;
+}
+
+.form button{
+    display: flex;
+    width: 20px;
+    border: none;
+}
+
+.form .check{
+    display: flex;
+    margin: 10px;
+    color: #FF0A6B;
+}
+
+.form .check p{
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.form img{
+    margin-top: 5px;
+}
+
+.form input{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 0 none;
+    outline: 0;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container-colunas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .coluna-1{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .coluna-2{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .coluna-3{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+    }
+}

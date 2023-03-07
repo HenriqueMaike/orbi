@@ -1,0 +1,148 @@
+.container-orbitv{
+    display: flex;
+    width: 100%;
+    height: 521px;
+    background-color: #19191A;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-orbitv{
+        display: none;
+    }
+}
+
+.container-orbitv .componente{
+    display: flex;
+    position: absolute;
+    right: 0;
+    opacity: 0.1;
+}
+
+.conteudo-orbitv{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-orbitv .sessao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cabecalho-orbitv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.links-cabecalho{
+    display: flex;
+    width: 18%;
+    justify-content: space-around;
+}
+
+.links-cabecalho .videos{
+    display: flex;
+    width: 77px;
+    height: 34px;
+    background-color: #FF0A6B;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.links-cabecalho .shorts{
+    display: flex;
+    width: 77px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-videos{
+    display: flex;
+    color: #fff;
+}
+
+.container-videos img{
+    border-radius: 10px;
+}
+
+.container-videos p{
+    margin-top: 10px;
+}
+
+.container-videos a{
+    cursor: pointer;
+}
+
+.videos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.videos a{
+    width: 384px;
+}
+
+@media screen and (max-width: 1000px) {
+    .videos a{
+        display: flex;
+        position: absolute;
+    }
+}
+
+.input-orbitv{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.input-orbitv input{
+    display: flex;
+    margin: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .input-orbitv{
+        position: absolute;
+        
+    }
+    
+    .input-orbitv input{
+        display: flex;
+        margin: 5px;
+    }
+}
+
+.icon-youtube{
+    display: flex;
+    color: #fff;
+}
+
+.icon-youtube a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon-youtube img{
+    margin-right: 10px;
+    
+}

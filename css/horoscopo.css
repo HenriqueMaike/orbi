@@ -1,0 +1,40 @@
+.horoscopo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.box-horoscopo{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.horoscopo-dia{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.icon-horoscopo{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon-horoscopo a{
+    cursor: pointer;
+}
+
+.icon-horoscopo a:hover{
+    scale: 1.1;
+}

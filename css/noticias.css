@@ -1,0 +1,6 @@
+.container-tabela-jogos{
+    display: flex;
+    width: 40%;
+    background-color: #FFF;
+    border-radius: 10px;
+}

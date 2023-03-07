@@ -1,0 +1,156 @@
+.container-banner {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+  
+.banner-imagem {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner-imagem::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1490px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.banner-imagem .container-photo-banner img{
+    display: flex;
+}
+
+.categoria {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.category{
+    color: #FFFFFF;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    padding: 5px 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.compartilhe{
+    color: #FFFFFF;
+    border-radius: 30px;
+    background-color: #FF0A6B;
+    padding: 5px 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+    
+.categoria img {
+    margin-right: 5px;
+}
+
+.ora-bolas{
+    position: absolute;
+    bottom: 25%;
+    z-index: 1; 
+    width: 90%;
+    max-width: 1200px;
+    color: #fff;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .ora-bolas{
+        bottom: 10%;
+    }
+}
+  
+.informacoes-banner {
+    position: absolute;
+    bottom: 10px;
+    z-index: 1; 
+    width: 100%;
+    max-width: 1200px;
+    color: #fff;
+    padding: 20px;
+}
+  
+.ora-bolas li {
+    list-style-type: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #FFFFFF;   
+}
+
+.ora-bolas li:before {
+    content: '•';
+    padding-right: 10px;
+    color:#FF0A6B;
+    font-size: 25px;
+}
+  
+.informacoes-banner h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+  
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .informacoes-banner{
+        display: none;
+    }
+
+    .container-photo-banner{
+        display: flex;
+        width: 100%;
+        height: 360px;
+    }
+
+    .photo-banner img{
+        display: flex;
+        height: 360px;
+    }
+
+}
+  
+.box {
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-align: justify;
+}
+  
+.box span {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#FF0A6B;
+    font-weight: bold;
+}
+  
+.box p {
+    margin-top: 15px;
+    font-size: 12px;
+}
